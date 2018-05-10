@@ -6,18 +6,19 @@ What is the largest prime factor of the number 600851475143 ?
 """
 import math
 
-N = 600851475143
-
 def is_prime(q):
     q = abs(q)
     if q == 2: return True
     if q < 2 or q&1 == 0: return False
     return pow(2, q-1, q) == 1
 
-begin_num = 2
-end_num = math.ceil(math.sqrt(N))
+if __name__ == '__main__':
+    N = 600851475143
 
-processing_data = [i for i in range(begin_num, end_num) if is_prime(i)]
+    begin_num = 2
+    end_num = math.ceil(math.sqrt(N))
 
-n = max(filter(lambda i: N%i == 0, processing_data))
-print(n)
+    processing_data = [i for i in range(begin_num, end_num) if is_prime(i)]
+
+    n = max(filter(lambda i: N%i == 0, processing_data))
+    print(n)
