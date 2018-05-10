@@ -15,5 +15,4 @@ def lcm(x, y):
 def m_lcm(*args):
     return reduce(lcm, args)
 
-processing_num = list(filter(lambda i: problem3.is_prime(i), range(1,21)))
-print(m_lcm(*processing_num))
+print(m_lcm(*range(1,21)))
