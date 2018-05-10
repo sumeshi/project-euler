@@ -1,5 +1,5 @@
 #!/bin/bas
-echo '#project-euler
+echo '# project-euler  
 https://projecteuler.net/' > README.md
 
 for file in `\find . -maxdepth 2 -type f -name '*.py'`; do
