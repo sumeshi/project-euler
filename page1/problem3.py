@@ -18,7 +18,7 @@ if __name__ == '__main__':
     begin_num = 2
     end_num = math.ceil(math.sqrt(N))
 
-    processing_data = [i for i in range(begin_num, end_num) if is_prime(i)]
+    processing_data = [i for i in range(begin_num, end_num) if (i%2!=0) and (i%3!=0) and (i%5!=0) and is_prime(i)]
 
     n = max(filter(lambda i: N%i == 0, processing_data))
     print(n)
