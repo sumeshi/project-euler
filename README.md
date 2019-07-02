@@ -1,38 +1,31 @@
 # project-euler  
 https://projecteuler.net/
----
+
+---
 problem1.py
+0.12753820419311523
 
-real	0m0.372s
-user	0m0.204s
-sys	0m0.091s
----
+---
 problem2.py
+0.019212007522583008
 
-real	0m0.151s
-user	0m0.081s
-sys	0m0.034s
----
+---
 problem3.py
+0.5129749774932861
 
-real	0m0.759s
-user	0m0.648s
-sys	0m0.056s
----
+---
 problem4.py
+0.25066208839416504
 
-real	0m0.398s
-user	0m0.330s
-sys	0m0.033s
----
+---
 problem5.py
+0.023489952087402344
 
-real	0m0.141s
-user	0m0.078s
-sys	0m0.032s
----
+---
 problem6.py
+0.020233869552612305
 
-real	0m0.143s
-user	0m0.079s
-sys	0m0.032s
+---
+problem7.py
+0.2628328800201416
+
